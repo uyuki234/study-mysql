@@ -3,3 +3,12 @@ study-pass
 
 .env
 mysql-data/
+
+# （ダンプを基本コミットしない運用なら）
+*.sql
+
+# （コンテナや手動ログ）
+*.log
+
+# （macOSの不要ファイル）
+.DS_Store
