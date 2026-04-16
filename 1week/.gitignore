@@ -1,4 +1,5 @@
 # mysqlのアカウント名とかパスワードとか
 study-pass
 
+.env
 mysql-data/

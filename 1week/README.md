@@ -7,9 +7,15 @@ MySQL / RDB 学習用リポジトリ
 - MySQL 8.x
 - Homebrew
 - ユーザー: studyuser
-- DB: study_db
+- DB: SCHOOL
 
 ## セットアップ
+
+1. `.env.example` をコピーして `.env` を作成
+2. 必要に応じて値を編集
+3. Docker を起動
+
 ```bash
-mysql -u studyuser -p
-USE study_db;
+cp .env.example .env
+docker compose up -d
+``
